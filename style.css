@@ -7,23 +7,24 @@
 
 #wrapper{
     height: 100vh;
-    overflow-y: auto;
     overflow-x: hidden;
+    overflow-y: auto;
     perspective: 10px;
 }
 
 .container{
     position: relative;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
 }
 
 .background{
-    transform: translateZ(-40px) scale(5);
+    transform: translateZ(-35px) scale(5);
+    /* margin-left: -5%; */
 }
 
 .foreground{
@@ -34,7 +35,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    object-fit: cover;
     z-index: -1;
 }
 
