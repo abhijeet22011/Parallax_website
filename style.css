@@ -71,10 +71,21 @@ section{
     padding: 0.5rem 2.5rem;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
     color: black;
     font-size: 3rem;
     font-weight: 600;
+}
+
+#biking{
+    transform: translateX(-95%) translateY(-50%);
+}
+
+#paragliding{
+    transform: translateX(-10%) translateY(-50%);
+}
+
+#surfing{
+    transform: translateX(-60%) translateY(-50%);
 }
 .bg{
     position: relative;
