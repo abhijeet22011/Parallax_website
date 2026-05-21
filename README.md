@@ -15,6 +15,8 @@ A visually engaging **Adventure-themed Parallax Website** built using **HTML and
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
+## 🌐 Live Demo
+🔗 https://abhijeet22011.github.io/Parallax_website/
 
 ## 📂 Project Structure
 ```bash
